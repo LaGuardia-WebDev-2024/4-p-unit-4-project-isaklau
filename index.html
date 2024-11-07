@@ -1,9 +1,9 @@
 <!--
 Requirements
-[  ] Google Font OR Uploaded Font
-[  ] font-size OR font-style 
-[  ] Five CSS Rules
-[  ] Three Images
+[ . ] Google Font OR Uploaded Font
+[ . ] font-size OR font-style 
+[ . ] Five CSS Rules
+[ . ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a Static Background Image
@@ -14,17 +14,100 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&family=Lexend+Giga:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Unit 4 Project</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        background-color: #607274;
+        color: #faeed1;
+        margin: 0 auto;
+        text-align: justify;
+        width: 30em;
+        font-family: "Anaheim", sans-serif;
+      }
+      h1 {
+        font-size: 45px;
+      }
 
-<head>
-  <title>Unit 4 Project</title>
-  <meta charset="utf-8">
-  <style>
+      img {
+        border: 5px solid #ded0b6;
+      }
+      topnav {
+      }
+      a:link {
+        color: #ded0b6;
+      }
+      a:visited {
+        color: #ded0b6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="#bio">BIO</a>
+      <a href="#portfolio">PORTFOLIO</a>
+      <a href="#contact">CONTACT</a>
+    </div>
+    <h1>Isa Lau</h1>
+    <h2>Dancer</h2>
+    <hr size="10" color="#DED0B6" />
+    <p><strong>Isa Lau</strong> is a New York City based dancer.</p>
+    <img
+      src="https://cdn.glitch.global/d0080fb1-dad9-4fb2-9918-3f046dc54d29/IMG_2890.jpeg?v=1730732084177"
+      width="300"
+    />
+    <h2 id="bio">Dancer Biography</h2>
+    <p>
+      17 year old Isa Lau is originally from Queens, New York. She is currently
+      studying dance at Fiorello H. LaGuardia High School of Music & Art and
+      Performing Arts. Prior to LaGuardia, Isa has studied dance with a
+      concentration in ballet at Ballet Tech, the NYC public school for dance.
+    </p>
+    <p>
+      Isa has extensive traning in ballet, modern, and contemporary dance, and
+      has experience in hiphop, tap, jazz, and latin dance.
+    </p>
+    <p>
+      Isa is currently dancing with Flight Path Dance Project for their 6th
+      season.
+    </p>
 
-  </style>
-</head>
-<body>
+    <h2 id="portfolio">Works and Creations</h2>
 
- 
+    <img
+      src="https://cdn.glitch.global/d0080fb1-dad9-4fb2-9918-3f046dc54d29/IMG_1620.jpg?v=1730905413285"
+      style="width: 100%"
+    />
 
-</body>
+    <p>
+      <em>Dear...</em> Choreographed and Performed by Isa Lau, Lucia Szell,
+      Kayleigh Griffin, Mia Ganapolsky, Rebecca Adamo (LaGuardia Dance Junior
+      Projects Showcase, 2024)
+    </p>
+    <br />
+    <a
+      href="https://docs.google.com/document/d/1mt-RPAREjFmP8gZLsRVMrk1beTuSQrXjolLnua7iCgI/edit?usp=sharing"
+      target="_blank"
+    >
+      resume </a
+    ><br />
+    <br />
+    <img
+      src="https://cdn.glitch.global/d0080fb1-dad9-4fb2-9918-3f046dc54d29/IMG_3014.jpeg?v=1730827476793"
+      width="300"
+    />
+
+    <h2 id="contact">Contact</h2>
+    <p>
+      Email: isakoyukilau@gmail.com <br />
+      Instagram: @k0vuk1
+    </p>
+  </body>
 </html>
